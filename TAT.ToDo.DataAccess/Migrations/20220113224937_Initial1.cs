@@ -1,0 +1,64 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+namespace TAT.ToDo.DataAccess.Migrations
+{
+    public partial class Initial1 : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Kullanicilar",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Ad = table.Column<string>(nullable: true),
+                    Soyad = table.Column<string>(nullable: true),
+                    Email = table.Column<string>(nullable: true),
+                    Telefon = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Kullanicilar", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Calismalar",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Ad = table.Column<string>(nullable: true),
+                    Aciklamasi = table.Column<string>(nullable: true),
+                    OlusturulmaTarih = table.Column<DateTime>(nullable: false),
+                    KullanıcıId = table.Column<int>(nullable: false),
+                    KullaniciId = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Calismalar", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Calismalar_Kullanicilar_KullaniciId",
+                        column: x => x.KullaniciId,
+                        principalTable: "Kullanicilar",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Calismalar_KullaniciId",
+                table: "Calismalar",
+                column: "KullaniciId");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "Calismalar");
+
+            migrationBuilder.DropTable(
+                name: "Kullanicilar");
+        }
+    }
+}

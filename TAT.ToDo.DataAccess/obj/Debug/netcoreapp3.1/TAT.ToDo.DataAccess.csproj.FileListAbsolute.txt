@@ -1,0 +1,16 @@
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.deps.json
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.runtimeconfig.json
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.runtimeconfig.dev.json
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.dll
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.pdb
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.Entities.dll
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\bin\Debug\netcoreapp3.1\TAT.ToDo.Entities.pdb
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.AssemblyInfo.cs
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.csproj.CopyComplete
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.dll
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.pdb
+C:\Users\Berat\source\repos\NetCoreToDoApp\TAT.ToDo.DataAccess\obj\Debug\netcoreapp3.1\TAT.ToDo.DataAccess.genruntimeconfig.cache
