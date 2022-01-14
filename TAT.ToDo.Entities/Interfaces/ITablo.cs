@@ -1,6 +1,6 @@
 ﻿namespace TAT.ToDo.Entities.Interfaces
 {
-    interface ITablo
+    public interface ITablo
     {
     }
 }

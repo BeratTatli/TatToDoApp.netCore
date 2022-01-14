@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using TAT.ToDo.Entities.Interfaces;
 
 namespace TAT.ToDo.Entities.Concrete
 {
-    public class Kullanici
+    public class Kullanici : ITablo
     {
         public int Id { get; set; }
         public string Ad { get; set; }
