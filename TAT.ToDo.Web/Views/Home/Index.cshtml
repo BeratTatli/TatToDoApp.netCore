@@ -1,7 +1,26 @@
-﻿
+﻿@model List<TAT.ToDo.Web.Models.MüşteriViewModel>
 @{
     ViewData["Title"] = "Index";
+    Layout = $"~/Views/Shared/_Layout.cshtml";
 }
+
+
+
+@await Html.PartialAsync($"_Kategoriler")
 
 <h1>Index action'ının kontrol ettiği view'</h1>
 
+
+@*@await Component.InvokeAsync("Urunler")*@
+
+
+<h4>
+    Modelden gelen data
+</h4>
+
+@foreach (var item in Model)
+{
+    <p>@item.Ad</p>
+}
+
+ 
